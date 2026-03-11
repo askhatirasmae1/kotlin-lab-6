@@ -1,4 +1,4 @@
-// Étape 1 + Étape 3 — Classe Player
+ // Étape 1 + Étape 3  
 
 class Player(val name: String, val surName: String) {
 
@@ -11,7 +11,7 @@ class Player(val name: String, val surName: String) {
 }
 
 
-// Étape 4 — Classe Scores
+// Étape 4  
 
 class Scores {
 
@@ -24,7 +24,7 @@ class Scores {
 }
 
 
-// Étape 8 — Programme principal
+// Étape 8  
 
 fun main() {
 
@@ -35,7 +35,7 @@ fun main() {
     var lvlScore = 0
 
 
-    // --- Scores de p1 : 20, 35, 25 ---
+    // --- Scores de p1  
 
     lvlScore = 20
     p1.totalScore += lvlScore
@@ -50,7 +50,7 @@ fun main() {
     p1.personalBestScore = scoring.updateBest(p1.personalBestScore, lvlScore)
 
 
-    // --- Scores de p2 : 15, 30, 10 ---
+    // --- Scores de p2  
 
     lvlScore = 15
     p2.totalScore += lvlScore
